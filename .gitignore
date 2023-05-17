@@ -1,0 +1,8 @@
+# cache
+app/__pycache__/*
+
+# venv files and folders 
+Lib/*
+Scripts/*
+Include/*
+*.cfg
