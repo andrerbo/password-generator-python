@@ -54,7 +54,7 @@ def check(password: str, chars: dict) -> bool:
     return True
 
 
-def get_password(lenght: int, punctuation: bool) -> None:
+def get_password(lenght: int, punctuation: bool) -> str:
     chars = setup(punctuation)
     password = generate_password(lenght, chars)
     while not check(password, chars):

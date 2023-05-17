@@ -1,5 +1,5 @@
 # cache
-app/__pycache__/*
+*/__pycache__/*
 
 # venv files and folders 
 Lib/*
